@@ -7,11 +7,15 @@ using namespace std;
 // complete two functions
 double nthpowerp(int n)
 {
-        // return n_th power number
+        for (i = 0; i < n; i++) {
+                nthpower *= 2;
+    }
+    return nthpower;
 }
 double nthpowern(int n)
 {
-        // return n_th power number
+        invertnthpower = 1.0/nthpower;
+        return invertnthpower;
 }
 void printout(double result)
 {
