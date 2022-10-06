@@ -17,7 +17,9 @@ double nthpowerp(int n)
 double nthpowern(int n)
 {
         int nthpower = 1;
-        int i, invertnthpower;
+        int i;
+        float invertnthpower;
+        n *= -1;
         for (i = 0; i < n; i++) {
                 nthpower *= 2;
     }
